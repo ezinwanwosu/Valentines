@@ -19,8 +19,7 @@ function noClicked(){
             break;
         case 2:
             // button becomes smaller and moves
-            noButton.style.width = "1%";
-            yesButton.style.width = "40%";
+            //noButton.style.width = "1%";
             yesButton.style.marginRight = "100px";
             noButton.style.left = "40%";
             noButton.style.fontSize = "3px";
