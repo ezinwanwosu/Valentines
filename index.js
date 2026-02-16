@@ -19,16 +19,12 @@ function noClicked(){
             break;
         case 2:
             // button becomes smaller and moves
-            noButton.style.width = "1%";
-            yesButton.style.width = "40%";
-            yesButton.style.marginRight = "100px";
-            noButton.style.left = "40%";
-            noButton.style.fontSize = "3px";
+            noButton.innerHTML = "Stop."
+            window.alert("Button unavailable - try again.")
             
             break;
         case 3:
-            yesButton.style.marginRight = "0";
-            yesButton.innerHTML = "PLEASEEEE!!"
+            yesButton.innerHTML = "PLEASE!"
             noButton.style.display = "none";
             break;
         default:
