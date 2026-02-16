@@ -24,7 +24,7 @@ h1{
 }
 img{
     position: relative;
-    width: 700px;
+    width: 550px;
 }
 #letter-paper{
     display: none;
@@ -37,9 +37,11 @@ img{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
 p{
+    font-size: 70%;
     position: relative;
-    padding: 0 30%;
+    padding: 0 20%;
 }
 #letterGif{
     display: none;
