@@ -8,6 +8,7 @@ html{
 }
 *{
     font-family: "Indie Flower";
+    
 }
 .letter{
     display:flexbox;
@@ -24,7 +25,7 @@ h1{
 }
 img{
     position: relative;
-    width: 700px;
+    width: 160%;
 }
 #letter-paper{
     display: none;

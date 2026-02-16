@@ -27,7 +27,7 @@ function noClicked(){
             break;
         case 3:
             yesButton.style.marginRight = "0";
-            yesButton.textContent = "PLEASEEEE!!"
+            yesButton.innerHTML = "PLEASEEEE!!"
             noButton.style.display = "none";
             break;
         default:
