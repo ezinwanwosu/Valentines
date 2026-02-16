@@ -30,7 +30,7 @@ img{
     display: none;
     
 }
-#paper, p{
+#paper{
  
     position: absolute;
     top: 50%;
@@ -38,8 +38,8 @@ img{
     transform: translate(-50%,-50%);
 }
 p{
-    font-size: 75%;
-    margin: 0;
+    position: relative;
+    padding: 0 30%;
 }
 #letterGif{
     display: none;
