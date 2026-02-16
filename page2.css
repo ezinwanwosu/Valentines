@@ -67,6 +67,8 @@ p{
     background-color:transparent;
     border-radius: 20px;
     border-color: black;
+    text-decoration: none;
+    color:black;
 }
 #next:hover{
     cursor: pointer;
