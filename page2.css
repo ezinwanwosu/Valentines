@@ -1,0 +1,71 @@
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+html{
+    background-color: #a595ed;
+}
+*{
+    font-family: "Indie Flower";
+}
+.letter{
+    display:flexbox;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    align-items: center;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+h1{
+    position: relative;
+    
+}
+img{
+    position: relative;
+    width: 800px;
+}
+#letter-paper{
+    display: none;
+    
+}
+#paper, p{
+ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+p{
+    font-size: 75%;
+    margin: 0;
+}
+#letterGif{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#letter-image{
+    cursor: pointer;
+
+}
+#next{
+    display: none;
+    font-family: "Indie Flower";
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 60px;
+    font-size: 3rem;
+    background-color:transparent;
+    border-radius: 20px;
+    border-color: black;
+}
+#next:hover{
+    cursor: pointer;
+}
